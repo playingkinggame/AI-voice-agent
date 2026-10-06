@@ -1,0 +1,9 @@
+livekit-agents>=1.2.0,<2.0
+livekit-plugins-groq>=1.2.0,<2.0
+livekit-plugins-silero>=1.2.0,<2.0
+livekit-api>=1.0.0,<2.0
+python-dotenv>=1.0.1
+pydantic>=2.6,<3.0
+fastapi>=0.110
+uvicorn>=0.29
+tzdata>=2024.1

@@ -1,0 +1,62 @@
+{
+  "_note": "DEMO DATA. Edit prices, timings, FAQs here - no code changes needed. Prices are in rupees.",
+  "clinic": {
+    "name": "SmileCare Dental Clinic",
+    "location": "Chennai, Tamil Nadu, India",
+    "address": "SmileCare Dental Clinic, Chennai, Tamil Nadu, India",
+    "receptionist_name": "Priya"
+  },
+  "booking": {
+    "slot_minutes": 30,
+    "dentists_available": 2,
+    "max_advance_days": 60,
+    "min_lead_minutes": 30
+  },
+  "timings": {
+    "monday":    {"open": "09:00", "close": "20:00"},
+    "tuesday":   {"open": "09:00", "close": "20:00"},
+    "wednesday": {"open": "09:00", "close": "20:00"},
+    "thursday":  {"open": "09:00", "close": "20:00"},
+    "friday":    {"open": "09:00", "close": "20:00"},
+    "saturday":  {"open": "09:00", "close": "20:00"},
+    "sunday":    {"open": "10:00", "close": "14:00"}
+  },
+  "emergency": {
+    "info": "Emergency dental consultations are available during clinic hours, depending on dentist availability.",
+    "urgent_warning": "For severe facial swelling, uncontrolled bleeding, difficulty breathing or swallowing, or serious facial trauma, please go to the nearest hospital emergency department or call emergency services on 112 immediately."
+  },
+  "price_disclaimer": "These prices are approximate and can change after the dentist examines you.",
+  "treatments": [
+    {"id": "consultation", "name": "Dental Consultation", "aliases": ["consultation", "checkup", "check up", "check-up", "dental exam", "examination", "general checkup", "tooth pain", "toothache"], "price_min": 500, "price_max": 500, "price_unit": "", "description": "A dentist examines your teeth and gums and discusses a treatment plan."},
+    {"id": "cleaning", "name": "Dental Cleaning / Scaling", "aliases": ["cleaning", "scaling", "teeth cleaning", "dental cleaning", "tooth cleaning", "polishing"], "price_min": 1000, "price_max": 1500, "price_unit": "", "description": "Professional removal of plaque and tartar."},
+    {"id": "filling", "name": "Dental Filling", "aliases": ["filling", "fillings", "cavity", "cavity filling", "tooth filling"], "price_min": 800, "price_max": 2000, "price_unit": "per tooth", "description": "Restoring a tooth affected by a cavity."},
+    {"id": "root_canal", "name": "Root Canal Treatment", "aliases": ["root canal", "rct", "root canal treatment", "root canal therapy"], "price_min": 4000, "price_max": 8000, "price_unit": "per tooth", "description": "Treatment of an infected or badly damaged tooth to save it."},
+    {"id": "extraction", "name": "Tooth Extraction", "aliases": ["tooth extraction", "extraction", "tooth removal", "remove tooth", "pull tooth"], "price_min": 1000, "price_max": 3000, "price_unit": "", "description": "Removal of a damaged or problematic tooth."},
+    {"id": "wisdom_tooth", "name": "Wisdom Tooth Extraction", "aliases": ["wisdom tooth", "wisdom teeth", "wisdom tooth extraction", "wisdom tooth removal"], "price_min": 3000, "price_max": 8000, "price_unit": "", "description": "Removal of one or more wisdom teeth."},
+    {"id": "crown", "name": "Dental Crown", "aliases": ["crown", "crowns", "cap", "tooth cap", "dental cap", "dental crown"], "price_min": 4000, "price_max": 12000, "price_unit": "", "description": "A cap placed over a tooth to restore its shape and strength."},
+    {"id": "whitening", "name": "Teeth Whitening", "aliases": ["whitening", "teeth whitening", "bleaching", "tooth whitening"], "price_min": 6000, "price_max": 12000, "price_unit": "", "description": "Professional treatment to lighten the colour of your teeth."},
+    {"id": "braces", "name": "Braces", "aliases": ["braces", "orthodontic", "orthodontics", "teeth straightening", "aligners"], "price_min": 25000, "price_max": 25000, "price_unit": "", "starting_price": true, "price_note": "The final cost depends on the treatment plan.", "description": "Orthodontic treatment to straighten teeth."},
+    {"id": "implants", "name": "Dental Implants", "aliases": ["implant", "implants", "dental implant", "tooth implant"], "price_min": 25000, "price_max": 25000, "price_unit": "per implant", "starting_price": true, "price_note": "The final price depends on the examination and the implant system used.", "description": "A titanium post and crown to replace a missing tooth."}
+  ],
+  "what_to_bring": [
+    "A photo ID",
+    "Any previous dental records or X-rays, if you have them",
+    "A list of medicines you currently take",
+    "Details of any allergies or medical conditions"
+  ],
+  "faqs": [
+    {"question": "Do I need an appointment?", "answer": "Appointments are recommended so that you do not have to wait, and I can book one for you right now. For urgent problems, we try to see patients during clinic hours depending on dentist availability."},
+    {"question": "How much is a consultation?", "answer": "A dental consultation costs around 500 rupees. This is an approximate price and can change."},
+    {"question": "How much is a root canal?", "answer": "A root canal usually costs around 4,000 to 8,000 rupees per tooth. The final cost depends on the tooth and the treatment needed after examination."},
+    {"question": "How much is cleaning?", "answer": "Dental cleaning or scaling costs around 1,000 to 1,500 rupees. The dentist confirms the final cost after examination."},
+    {"question": "Do you treat children?", "answer": "Yes, our dentists see patients of all ages, including children. Please mention the child's age when booking."},
+    {"question": "Do you provide braces?", "answer": "Yes, we provide braces. They start at around 25,000 rupees, and the final cost depends on your treatment plan after a consultation."},
+    {"question": "Do you provide dental implants?", "answer": "Yes, we provide dental implants starting at around 25,000 rupees per implant. The final price depends on the examination and the implant system."},
+    {"question": "What are the clinic timings?", "answer": "__TIMINGS__"},
+    {"question": "Where are you located?", "answer": "__LOCATION__"},
+    {"question": "How long does a root canal take?", "answer": "A root canal often takes one to three visits, each roughly 45 to 90 minutes. The dentist will confirm the exact plan after examining the tooth."},
+    {"question": "Can I reschedule my appointment?", "answer": "Yes, you can reschedule. I just need your appointment ID and the phone number used for booking, and then we can pick a new time."},
+    {"question": "What happens during a consultation?", "answer": "The dentist checks your teeth and gums, asks about your symptoms and medical history, may recommend X-rays, and explains the treatment options and approximate costs."},
+    {"question": "Do you accept emergency dental visits?", "answer": "__EMERGENCY__"}
+  ]
+}
